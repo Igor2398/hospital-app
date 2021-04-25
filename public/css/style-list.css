@@ -1,0 +1,54 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css";
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    background-repeat: no-repeat;
+	margin: 0;
+}
+    
+.container {
+	background: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+}
+
+.table-container {
+	display: flex;
+	justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vh;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    border: none;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.btn-danger {
+    color:#fff;
+    background-color:#dc3545;
+    border-color:#dc3545
+}
+
